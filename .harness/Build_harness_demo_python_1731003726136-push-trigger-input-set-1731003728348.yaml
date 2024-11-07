@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_demo_python_1731003726136-push-trigger-input-set
+  identifier: Build_harness_demo_python_1731003726136pushtriggerinputset
+  orgIdentifier: sandbox
+  projectIdentifier: Femi_Sandbox
+  pipeline:
+    identifier: Build_harness_demo_python_1731003726136
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_demo_python_1731003726136-pr-trigger-input-set
+  identifier: Build_harness_demo_python_1731003726136prtriggerinputset
+  orgIdentifier: sandbox
+  projectIdentifier: Femi_Sandbox
+  pipeline:
+    identifier: Build_harness_demo_python_1731003726136
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
